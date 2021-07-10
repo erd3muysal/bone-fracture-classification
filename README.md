@@ -88,7 +88,7 @@ wrapt==1.12.1
 6. Set Flask environment variables.
     * `export FLASK_APP=app`
 ## Usage
-`$ python3 app/app.py`
+`$ flask run`
 ## Author
 R. Erdem Uysal
 * https://www.linkedin.com/in/erdemuysal13/

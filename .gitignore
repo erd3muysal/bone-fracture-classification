@@ -1,4 +1,7 @@
 venv/
 __pycache__/
+results/figures/
+results/logs/
+results/models/
 app/__pycache__/
 app/static/uploads/

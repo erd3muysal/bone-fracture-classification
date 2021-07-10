@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+app/__pycache__/
+app/static/uploads/
+results/figures/
+results/logs/
+tests/
+*.py
+README.md
+LICENSE

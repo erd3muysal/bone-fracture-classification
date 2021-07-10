@@ -7,7 +7,7 @@ Classification Methods:
 - KNN (sklearn).
 - ANNs (tf.keras), vanilla and pretrained models.
 ## Dependencies
-ps: All the libraries can be downloaded by pip install -r requirements.txt
+ps: All the libraries can be downloaded by `pip install -r requirements.txt`
 ```
 absl-py==0.13.0
 astunparse==1.6.3

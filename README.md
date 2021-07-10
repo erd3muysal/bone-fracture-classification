@@ -56,6 +56,7 @@ Werkzeug==2.0.1
 wrapt==1.12.1
 ```
 ## Project Tree
+```
 ├── app
 │   ├── static
 │   │   ├── css
@@ -69,6 +70,7 @@ wrapt==1.12.1
 │   └── models
 ├── tests
 └── venv
+```
 ## Installation Options
 1.  Clone repo to your local:  `$ git clone https://github.com/erd3muysal/bone_fracture_classification`.
 2. Go to project directory and create a virtual envrironment.

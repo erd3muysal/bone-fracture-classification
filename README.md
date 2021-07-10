@@ -85,6 +85,8 @@ wrapt==1.12.1
         - To check optional arguments type `$ python3 __init__.py --help`
         - To start training type `$ python3 __init__.py`
     This process will save the best model as a `.h5` file under `results/models` directory.
+6. Set Flask environment variables.
+    * `export FLASK_APP=app`
 ## Usage
 `$ python3 app/app.py`
 ## Author

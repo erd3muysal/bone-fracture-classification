@@ -7,6 +7,7 @@ Classification Methods:
 - KNN (sklearn).
 - ANNs (tf.keras), vanilla and pretrained models.
 ## Dependencies
+ps: All the libraries can be downloaded by pip install -r requirements.txt
 ```
 absl-py==0.13.0
 astunparse==1.6.3
@@ -53,8 +54,21 @@ typing-extensions==3.7.4.3
 urllib3==1.26.6
 Werkzeug==2.0.1
 wrapt==1.12.1
-ps: All the libraries can be downloaded by pip install -r requirements.txt
 ```
+## Project Tree
+├── app
+│   ├── static
+│   │   ├── css
+│   │   ├── js
+│   │   └── uploads
+│   └── templates
+├── notebooks
+├── results
+│   ├── figures
+│   ├── logs
+│   └── models
+├── tests
+└── venv
 ## Installation Options
 1.  Clone repo to your local:  `$ git clone https://github.com/erd3muysal/bone_fracture_classification`.
 2. Go to project directory and create a virtual envrironment.
@@ -63,10 +77,12 @@ ps: All the libraries can be downloaded by pip install -r requirements.txt
 4. Install dependinces by typing `pip install -r requirements.txt`.
 5.  Train the model. You have two options for training process.
     * Notebook
+        - You can use Google Colab for start training using notebook.
     or
     * Scripts
+        - To check optional arguments type `$ python3 __init__.py --help`
+        - To start training type `$ python3 __init__.py`
     This process will save the best model as a `.h5` file under `results/models` directory.
-6. [under construction]
 ## Usage
 `$ python3 app/app.py`
 ## Author
